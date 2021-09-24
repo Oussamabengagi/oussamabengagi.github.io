@@ -1,5 +1,6 @@
-console.log('Its working')
 
+console.log('Its working')
+console.log('my phone number is : +21652915609')
 let theme = localStorage.getItem('theme')
 
 if(theme == null){
