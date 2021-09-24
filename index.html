@@ -11,9 +11,16 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="default.css">
+	<link rel="stylesheet" type="text/css" href="loading">
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
+	<div class="loading">
+		<div class="circle"></div>
+		<div class="circle"></div>
+		<div class="circle"></div>
+		<div class="circle"></div>
+	  </div>
 
 	<section class="s1">
 		<div class="main-container">
@@ -139,5 +146,14 @@
 	</section> 
 
 	<script type="text/javascript" src="script.js"></script>
+	<script>
+		let loader = document.querySelector('.loading');
+
+		window.addEventListener('load',function()
+		{
+			//loader.style.display = 'none';
+			loader.parentElement.removeChild(loader);
+		});
+	</script>
 </body>
 </html>
