@@ -440,6 +440,9 @@ h6 { font-size: 16px;}
 
 
 
+
+
+
   
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 
@@ -452,7 +455,7 @@ h6 { font-size: 16px;}
 }
 
 .line__1,
-.line__2,.line__3,.line__4,.line__5,.line_f {
+.line__2,.line__3,.line__4,.line__5,.line1, .line2 , .line3 , .line4 , .line5 , .line6 , .line7 , .line8 , .line9 , .line10{
   white-space: nowrap; /* keep text in one line */
   overflow: hidden; /* hide text behind the cursor */
   margin: 0.3rem auto;
@@ -471,6 +474,127 @@ h6 { font-size: 16px;}
 	-webkit-animation-delay: 7s;
 	animation-delay: 3s;
   }
+
+
+  .line1 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 1s;
+  }
+
+  .line2 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 1.5s;
+  }
+
+
+  .line3 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 2s;
+  }
+
+  .line4 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 2.5s;
+  }
+
+
+
+  .line5 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 3s;
+  }
+
+  .line6 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 3.5s;
+  }
+
+
+  .line7 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 4s;
+  }
+
+
+  .line8 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 4.5s;
+  }
+
+  .line9 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 5s;
+  }
+
+
+  .line10 {
+	
+  
+	/* define animation types for text + cursor */
+	animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+	  animated-cursor__2 900ms steps(30, end) 2;
+	-webkit-animation-delay: 7s;
+	animation-delay: 5.5s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .line__1 {
